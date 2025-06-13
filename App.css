@@ -1,0 +1,89 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+}
+/* App.css */
+.CustomerList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.CustomerHeading {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.CustomerAdd {
+  margin-bottom: 2rem;
+}
+
+.CustomerAdd input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 200px;
+  margin-right: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.CustomerAdd button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #61dafb;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.CustomerAdd button:hover {
+  background-color: #21a1f1;
+}
+
+.CustomerList {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.CustomerList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.CustomerList li button {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.875rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #ff4d4d;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.CustomerList li button:hover {
+  background-color: #e60000;
+}
